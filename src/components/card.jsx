@@ -109,11 +109,11 @@ export default function Card ({
       <div
         style={{
           opacity: flipped ? 1 : 0,
-          transform: reversed ? 'scale(1,-1)' : 'scale(-1,1)'
+          transform: reversed ? 'scale(1,-1)' : 'scale(-1,1)',
         }}
         className='border border-slate-800 w-full h-full rounded-xl bg-orange-50 flex flex-col items-center justify-start pt-2'
       >
-        <div className='w-5/6 text-xs md:text-base lg:text-lg'>
+        <div className='overflow-hidden w-5/6 text-xs md:text-base lg:text-lg'>
           <p className='font-bold text-xs md:text-lg lg:text-2xl'>{name}</p>
           <p className='font-bold text-xs md:text-lg lg:text-2xl'>{arcana}</p>
           <div className='pt-2 md:pt-4'>
