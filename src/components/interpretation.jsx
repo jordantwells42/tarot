@@ -21,7 +21,7 @@ export default function Interpretation () {
             Each deck consists of 78 cards, each with a unique meaning. These 
             consist of the Major Arcana, which represent life archetypes, and the Minor Arcana,
             which are concerned with day-to-day life and organized into 4 suits. <b>Click a card
-            to flip it and learn about its meaning.</b>
+            to flip it and learn about its meaning.</b> Also feel free to drag the cards around as well!
             </p>
         </div>
         <div className="w-full text-md md:text-2xl py-5 text-white text-left">
