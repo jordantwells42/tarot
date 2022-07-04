@@ -44,7 +44,7 @@ export default function Card ({
       setTransform(
         idx,
         { x: position.x + ox, y: position.y + oy },
-        down ? dy * vy + dx * vx + rotation : rotation
+        down ? (dy * vy + dx * vx * (reversed?-1:-1) *(flipped?1:-1)) + rotation : rotation
       )
       api.start({
         scale: down ? 1.1 : 1,
