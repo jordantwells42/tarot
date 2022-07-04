@@ -87,7 +87,7 @@ export default function Card ({
         touchAction: 'none',
         ...style
       }}
-      className='rounded-xl w-1/3 lg:w-1/4 xl:w-1/6 aspect-[5/9]'
+      className='rounded-xl w-1/4 lg:w-1/5 xl:w-1/6 aspect-[5/9]'
     >
       <div
         style={{ opacity: flipped ? 0 : 1 , boxShadow: "0 0 5px #000"}}
@@ -116,12 +116,12 @@ export default function Card ({
         <div className='w-5/6 text-xs md:text-base lg:text-lg'>
           <p className='font-bold text-xs md:text-lg lg:text-2xl'>{name}</p>
           <p className='font-bold text-xs md:text-lg lg:text-2xl'>{arcana}</p>
-          <div className='pt-4'>
+          <div className='pt-2 md:pt-4'>
             <p className='font-bold'>Keywords:</p>
 
             <p className='capitalize'>{keywords.join(', ')}</p>
           </div>
-          <div className='pt-4 opacity-0 md:opacity-100'>
+          <div className='pt-2 md:pt-4 opacity-0 md:opacity-100'>
             <p className='font-bold'>
               Meanings in {reversed ? 'reversed' : 'upright'}:
             </p>
